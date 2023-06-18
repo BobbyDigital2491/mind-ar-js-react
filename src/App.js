@@ -9,7 +9,8 @@ function App() {
   return (
     <div className="App">
       <h1>Augmentique App </h1>
-
+      <p>The Augmentique App is a web based augmented realioty application designed to show
+      interactive content on Augmentique apparel and products.</p>
       <div className="control-buttons">
         {started === null && <button onClick={() => {setStarted('aframe')}}>See Assets</button>}
         {<><br /><br /></>}
