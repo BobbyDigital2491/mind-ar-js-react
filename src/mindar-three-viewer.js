@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import {MindARThree} from 'mind-ar/dist/mindar-image-three.prod.js';
 import * as THREE from 'three';
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
   const containerRef = useRef(null);
 
@@ -29,7 +30,7 @@ export default () => {
   }, []);
 
   return (
-    <div style={{width: "100%", height: "100%"}} ref={containerRef}>
+    <div style={{width: "700%", height: "1150%"}} ref={containerRef}>
     </div>
   )
 }

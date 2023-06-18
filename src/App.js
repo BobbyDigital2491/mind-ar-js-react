@@ -8,11 +8,12 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Example React component with <a href="https://github.com/hiukim/mind-ar-js" target="_blank">MindAR</a></h1>
+      <h1>Augmentique App </h1>
 
       <div className="control-buttons">
-        {started === null && <button onClick={() => {setStarted('aframe')}}>Start AFRAME version</button>}
-        {started === null && <button onClick={() => {setStarted('three')}}>Start ThreeJS version</button>}
+        {started === null && <button onClick={() => {setStarted('aframe')}}>See Assets</button>}
+        {<><br /><br /></>}
+        {started === null && <button onClick={() => {setStarted('three')}}>AR Videos</button>}
         {started !== null && <button onClick={() => {setStarted(null)}}>Stop</button>}
       </div>
 
